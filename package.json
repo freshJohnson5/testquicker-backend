@@ -34,6 +34,9 @@
     "prettier": "prettier \"**/*.+(js|jsx|json|css|md)\"",
     "prettier:write": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
+  "overrides": {
+    "buffer-equal-constant-time": "1.0.1"
+  },
   "author": "Watscho Aiwasov",
   "license": "MIT",
   "devDependencies": {
@@ -75,9 +78,12 @@
     "i18next": "22.4.9",
     "i18next-http-middleware": "3.2.2",
     "jsonwebtoken": "8.5.1",
+    "mongodb": "^7.2.0",
     "mongoose": "6.6.5",
     "multer": "1.4.5-lts.1",
     "nodemailer": "6.9.1",
+    "openai": "^6.37.0",
+    "puppeteer": "^24.43.1",
     "randomstring": "1.2.3",
     "redis": "4.3.1",
     "sharp": "0.31.3",
